@@ -1,4 +1,4 @@
-/*Variáveis*/
+/*Variable*/
 :root {
     --bgSite: #f6f6f6;
     --bgCard: #ebe9ea;
@@ -83,12 +83,105 @@
     font-size: 16px;
   }
 
+  .discount > p {
+    font-family: 'montserrat-bold';
+    font-size: 16px;
+  }
+
   header > nav > .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 60px;
+  }
+
+  .logo > h1 {
     font-family: 'montserrat-bold';
     font-size: 24px;
+  }
+
+  .container {
+    padding: 70px 50px;
+    height: 100%;
+  }
+
+  .banner {
+    background-image: url(../assets/img/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 378px;
+    width: 100%;
+  }
+
+  .banner-title {
+    font-family: 'montserrat-bold';
+    font-size: 32px;
+    color: var(--text-white);
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+
+  .banner-context {
+    font-family: 'montserrat-medium';
+    font-size: 18px;
+    color: var(--text-white);
+    padding-left: 20px;
+    line-height: 35px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-family: 'montserrat-semibold';
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .hero-description {
+    font-family: 'montserrat-medium';
+    font-size: 18px;
+  }
+
+  .list-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 302px;
+    background-color: var(--bgCard);
+    margin: 5px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserrat-medium';
+    font-size: 18px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--title);
+    color: var(--text-white);
   }
