@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Jordan Shoes</title>
 </head>
 <body>
     <header>
         <nav>
-            <div class="discount">
+            <div class="discount headline">
                 <p>
                     Ganhe R$ 10,00 de desconto no frete
                 </p>
             </div>
-            <div class="logo">
+            <div class="logo headline">
                 <h1>
                     JordanShoes
                 </h1>
@@ -23,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <section class="banner container">
+        <section class="banner container headline">
                 <h2 class="banner-title">
                     A melhor loja de Jordan
                 </h2>
@@ -31,39 +32,42 @@
                     O tênis Jordan é fruto de uma velha e forte<br> parceria entre a Nike e o jogador Michael Jordan.
                 </p>
         </section>
-        <section class="hero">
+        <section class="hero headline">
             <p class="hero-title">Destaques</p>
-            <p class="hero-description">Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.</p>
+            <p class="hero-description headline">Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.</p>
         </section>
         <section class="list-product">
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/1.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/2.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/3.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/4.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/5.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/6.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/7.png" alt="">
             </div>
-            <div class="card">
+            <div class="card headline">
                 <img src="./src/assets/img/8.png" alt="">
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="headline">
         <p>Todos os direitos reservados.</p>
     </footer>
 </body>
+    <script>
+        ScrollReveal().reveal('.headline');
+    </script>
 </html>

@@ -147,11 +147,13 @@
     font-family: 'montserrat-semibold';
     font-size: 32px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .hero-description {
     font-family: 'montserrat-medium';
     font-size: 18px;
+    text-align: center;
   }
 
   .list-product {
